@@ -8,4 +8,5 @@ services:
 #    volumes:
 #     - .:/code
   mongodb:
-    image: "mongo:4.0.4"
+   image: "mongo:4.0.4"
+#    image: "mongo"
