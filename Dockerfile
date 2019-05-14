@@ -1,6 +1,6 @@
 FROM frolvlad/alpine-python3
 
-MAINTAINER Karel Rudisar - krudisar@gmxxx.com
+MAINTAINER Karel Rudisar - krudisar@gmail.com
 
 # --- CACHE SETTINGS ---
 ENV CACHE_API_REQUESTS=0
