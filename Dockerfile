@@ -3,8 +3,8 @@ FROM frolvlad/alpine-python3
 MAINTAINER Karel Rudisar - krudisar@gmail.com
 
 # --- CACHE SETTINGS ---
-ENV CACHE_API_REQUESTS=0
-ENV CACHE_IMAGES_IN_DB=0
+ENV CACHE_API_REQUESTS=1
+ENV CACHE_IMAGES_IN_DB=1
 # ----------------------
 
 RUN apk add --no-cache --update python3-dev gcc build-base

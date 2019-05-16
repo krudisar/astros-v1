@@ -1,5 +1,5 @@
 while true
 do
-  curl http://127.0.0.1:5000/test
-  sleep 10
+  curl http://139.59.206.248:5000/test
+  sleep 2
 done
