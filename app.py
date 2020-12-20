@@ -16,7 +16,7 @@ import wavefront_api_client
 # Configure API key authorization: api_key
 wavefrontConfiguration = wavefront_api_client.Configuration()
 wavefrontConfiguration.host = 'https://vmware.wavefront.com'
-wavefrontConfiguration.api_key['X-AUTH-TOKEN'] = '7dd79888-59fb-42f0-84a7-2a83545de7f0'
+wavefrontConfiguration.api_key['X-AUTH-TOKEN'] = 'heregoesthetoken'
 
 wavefrontApiInstance = wavefront_api_client.DirectIngestionApi(wavefront_api_client.ApiClient(wavefrontConfiguration))
 wavefrontDataFormat = 'wavefront' 
